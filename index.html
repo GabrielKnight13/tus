@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TUS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="question-container" class="question-container">
+            <h2 id="question">Yükleniyor...</h2>
+            <div id="options" class="options">
+                <!-- Options will be dynamically added here -->
+            </div>
+        </div>
+        <div id="explanation" class="explanation">
+            <!-- Explanation button and text will be dynamically added here -->
+        </div>
+        <!-- Add the Previous Question button -->
+        <button id="prev-button" class="prev-button" onclick="loadPreviousQuestion()" disabled>Önceki</button>
+        <button id="next-button" class="next-button" onclick="loadNextQuestion()">Sonraki</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
