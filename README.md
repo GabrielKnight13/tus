@@ -3,6 +3,7 @@
 Data extracted for TUS examination and web interface created with aid of AI.
 
 YZ yardımıyla,TUS sınavı için dataset ayıklandı ve  web arayüzü oluşturuldu.
+https://timeofboredking.com/
 
 Dataset
 @dataset{bayram_2024_13378019,
